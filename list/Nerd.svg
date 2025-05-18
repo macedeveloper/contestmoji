@@ -1,0 +1,13 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="50" cy="50" r="42" fill="#FFBA34"/>
+<circle cx="35" cy="44" r="14" fill="white" stroke="#572217" stroke-width="4"/>
+<circle cx="12" cy="12" r="14" transform="matrix(-1 0 0 1 77 32)" fill="white" stroke="#572217" stroke-width="4"/>
+<circle cx="37.7" cy="43.7" r="7.2" fill="#572217"/>
+<circle cx="7.2" cy="7.2" r="7.2" transform="matrix(-1 0 0 1 68.8999 36.5)" fill="#572217"/>
+<path d="M21.5 36.5H9.5" stroke="#572217" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90.5 36.5H78.5" stroke="#572217" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M65 65C60 73 40 73 35 65" stroke="#572217" stroke-width="4" stroke-linecap="round"/>
+<path d="M41 69.5H50V75.5C50 75.9643 50 76.1965 49.9807 76.3921C49.7937 78.2912 48.2912 79.7937 46.3921 79.9807C46.1965 80 45.9643 80 45.5 80C45.0357 80 44.8035 80 44.6079 79.9807C42.7088 79.7937 41.2063 78.2912 41.0193 76.3921C41 76.1965 41 75.9643 41 75.5V69.5Z" fill="white"/>
+<path d="M50 69.5H59V75.5C59 75.9643 59 76.1965 58.9807 76.3921C58.7937 78.2912 57.2912 79.7937 55.3921 79.9807C55.1965 80 54.9643 80 54.5 80C54.0357 80 53.8035 80 53.6079 79.9807C51.7088 79.7937 50.2063 78.2912 50.0193 76.3921C50 76.1965 50 75.9643 50 75.5V69.5Z" fill="white"/>
+<path d="M35 65C40 73 60 73 65 65L63.5 65.75L56.75 68.75L49.25 69.5L41 68L35 65Z" fill="#572217"/>
+</svg>

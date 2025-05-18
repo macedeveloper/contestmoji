@@ -1,90 +1,143 @@
-i.md-e {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    background-size: cover;
-    vertical-align: middle;
-    font-style: normal;
+/* Base styles */
+:root {
+    --bg: #292a2d;
+    --darker: #212327;
+    --link: #e685b5;
 }
 
-i.md-e-annoyed {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Annoyed.svg');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: var(--bg);
+    color: #e0e0e0;
+    padding-top: 70px;
 }
-i.md-e-boom {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Boom.svg');
+
+
+
+/* Header styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--darker);
+    padding: 15px 0;
+    z-index: 100;
 }
-i.md-e-chair {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Chair.svg');
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
-i.md-e-cool {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Cool.svg');
+
+
+
+/* Text styles */
+h1 {
+    margin: 0;
+    font-size: 1.5em;
 }
-i.md-e-evil {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Evil.svg');
+
+h2 {
+    color: var(--link);
+    margin-bottom: 20px;
+    font-size: 1.3em;
 }
-i.md-e-fire {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Fire.svg');
+
+code {
+    background-color: var(--darker);
+    color: var(--link);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.9em;
 }
-i.md-e-flag {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Flag.svg');
+
+.author a {
+    color: var(--link);
+    text-decoration: none;
 }
-i.md-e-heart {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Heart.svg');
+
+.author a:hover {
+    text-decoration: underline;
 }
-i.md-e-hearts {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Hearts.svg');
+
+
+
+/* Main container and Sections */
+.main-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
 }
-i.md-e-hehe {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Hehe.svg');
+
+section {
+    margin-bottom: 40px;
 }
-i.md-e-hello {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Hello.svg');
+
+
+
+/* Emoji grid */
+.emoji-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
-i.md-e-imp-angry {
-    background-image: url('https://macestudios.ru/tucmojicss/images/ImpAngry.svg');
+
+.md-e-div {
+    width: 200px;
+    background-color: var(--darker);
+    border-radius: 8px;
+    padding: 12px;
 }
-i.md-e-imp-evil {
-    background-image: url('https://macestudios.ru/tucmojicss/images/ImpEvil.svg');
+
+.md-e-div p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
-i.md-e-joy {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Joy.svg');
+
+
+
+/* Example section */
+.example-section p {
+    margin: 15px 0;
 }
-i.md-e-nerd {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Nerd.svg');
+
+/* Usage section */
+.usage-section ol {
+    padding-left: 25px;
 }
-i.md-e-neutral {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Neutral.svg');
+
+.usage-section li {
+    margin-bottom: 10px;
+    line-height: 1.4;
 }
-i.md-e-no {
-    background-image: url('https://macestudios.ru/tucmojicss/images/No.svg');
-}
-i.md-e-pleading {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Pleading.svg');
-}
-i.md-e-rage {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Rage.svg');
-}
-i.md-e-rofl {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Rofl.svg');
-}
-i.md-e-santa {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Santa.svg');
-}
-i.md-e-shock {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Shock.svg');
-}
-i.md-e-sob {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Sob.svg');
-}
-i.md-e-suspecting {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Suspecting.svg');
-}
-i.md-e-wand {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Wand.svg');
-}
-i.md-e-yawn {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Yawn.svg');
-}
-i.md-e-yes {
-    background-image: url('https://macestudios.ru/tucmojicss/images/Yes.svg');
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .emoji-grid {
+        justify-content: center;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    body {
+        padding-top: 100px;
+    }
 }

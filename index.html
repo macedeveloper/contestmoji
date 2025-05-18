@@ -1,67 +1,142 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Emojis</title>
+    <title>Contestmoji</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        * {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        code {
-            font-family: 'Courier New', Courier, monospace;
-        }
-
-        body {
-            background-color: #111;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="emojis.css">
 </head>
-
 <body>
-    <h1> Пример: </h1>
-    <p> Это мой кастомный эмодзи: <i class="md-e md-e-rage"></i> </p>
-    <p> SVG эмодзи: <i class="md-e md-e-yawn"></i><i class="md-e md-e-yes"></i> Вот такие пироги. </p>
+    <header>
+        <div class="header-content">
+            <h1>Contestmoji</h1>
+            <div class="author">
+                <a href="https://macestudios.ru/" target="_blank">Mace Dev</a>
+            </div>
+        </div>
+    </header>
 
-    <h1> Использование: </h1>
-    <p> 1. Вставить в элемент &lt;head&gt; вашего сайта <code> &lt;link rel="stylesheet" href="https://macestudios.ru/tucmojicss/style.css"&gt; </code> </p>
-    <p> 2. В любом месте сайта напишите <code> &lt;i class="md-e md-e-NAME"&gt;&lt;/i&gt; </code> </p>
-    <p> 3. Подставьте вместо NAME название смайлика</p>
+    <div class="main-container">
+        <section class="example-section">
+            <h2>Example:</h2>
+            <p>I feel rage <i class="md-e md-e-rage"></i></p>
+            <p>This is amazing <i class="md-e md-e-amazing"></i></p>
+            <p>Let's party <i class="md-e md-e-party"></i></p>
+        </section>
 
-    <h1> Все названия: </h1>
-    <p>
-        <i class="md-e md-e-annoyed"></i> - annoyed<br>
-        <i class="md-e md-e-boom"></i> - boom<br>
-        <i class="md-e md-e-chair"></i> - chair<br>
-        <i class="md-e md-e-cool"></i> - cool<br>
-        <i class="md-e md-e-evil"></i> - evil<br>
-        <i class="md-e md-e-fire"></i> - fire<br>
-        <i class="md-e md-e-flag"></i> - flag<br>
-        <i class="md-e md-e-heart"></i> - heart<br>
-        <i class="md-e md-e-hearts"></i> - hearts<br>
-        <i class="md-e md-e-hehe"></i> - hehe<br>
-        <i class="md-e md-e-hello"></i> - hello<br>
-        <i class="md-e md-e-imp-angry"></i> - imp-angry<br>
-        <i class="md-e md-e-imp-evil"></i> - imp-evil<br>
-        <i class="md-e md-e-joy"></i> - joy<br>
-        <i class="md-e md-e-nerd"></i> - nerd<br>
-        <i class="md-e md-e-neutral"></i> - neutral<br>
-        <i class="md-e md-e-no"></i> - no<br>
-        <i class="md-e md-e-pleading"></i> - pleading<br>
-        <i class="md-e md-e-rage"></i> - rage<br>
-        <i class="md-e md-e-rofl"></i> - rofl<br>
-        <i class="md-e md-e-santa"></i> - santa<br>
-        <i class="md-e md-e-shock"></i> - shock<br>
-        <i class="md-e md-e-sob"></i> - sob<br>
-        <i class="md-e md-e-suspecting"></i> - suspecting<br>
-        <i class="md-e md-e-wand"></i> - wand<br>
-        <i class="md-e md-e-yawn"></i> - yawn<br>
-        <i class="md-e md-e-yes"></i> - yes<br>
+        <section class="usage-section">
+            <h2>Usage:</h2>
+            <ol>
+                <li>Insert into the <code>&lt;head&gt;</code> of your website: <code>&lt;link rel="stylesheet" href="https://macestudios.ru/contestmoji/emojis.css"&gt;</code></li>
+                <li>Anywhere on your website write: <code>&lt;i class="md-e md-e-NAME"&gt;&lt;/i&gt;</code></li>
+                <li>Replace NAME with the emoji name</li>
+            </ol>
+        </section>
 
-    </p>
+        <section class="emoji-list-section">
+            <h2>Emoji List:</h2>
+            <div class="emoji-grid">
+                <!-- Emoji Preview HTML -->
+                <div class="md-e-div"><p><i class="md-e md-e-angel"></i> - Angel</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-angeldreamy"></i> - AngelDreamy</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-annoyed"></i> - Annoyed</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-boom"></i> - Boom</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-boomnight"></i> - BoomNight</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-brickblue"></i> - BrickBlue</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-buffoon"></i> - Buffoon</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-buttonblack"></i> - ButtonBlack</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-buttoncircle"></i> - ButtonCircle</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-buttonempty"></i> - ButtonEmpty</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-buttongray"></i> - ButtonGray</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-buttonheart"></i> - ButtonHeart</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-buttonsparkle"></i> - ButtonSparkle</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-buttonsquare"></i> - ButtonSquare</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-buttontriangle"></i> - ButtonTriangle</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-buttonwhite"></i> - ButtonWhite</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-catcute"></i> - CatCute</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-catgrin-1"></i> - CatGrin-1</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-catgrin"></i> - CatGrin</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-catjoy"></i> - CatJoy</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-catpensive"></i> - CatPensive</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-catrage"></i> - CatRage</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-catsmirking"></i> - CatSmirking</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-chair"></i> - Chair</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-checkmark"></i> - Checkmark</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-clown"></i> - Clown</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-clownpensive"></i> - ClownPensive</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-cold"></i> - Cold</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-cowboy"></i> - Cowboy</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-cross"></i> - Cross</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-excited"></i> - Excited</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-expressionless"></i> - Expressionless</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-fear"></i> - Fear</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-fire"></i> - Fire</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-flagblack"></i> - FlagBlack</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-flagfinish"></i> - FlagFinish</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-flagpirate"></i> - FlagPirate</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-flagrainbow"></i> - FlagRainbow</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-flagtrans"></i> - FlagTrans</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-flagtriangle"></i> - FlagTriangle</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-flagwhite"></i> - FlagWhite</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-grin"></i> - Grin</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-grinbigeyes"></i> - GrinBigEyes</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-grinsmile"></i> - GrinSmile</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-grinsweat"></i> - GrinSweat</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-heartblack"></i> - HeartBlack</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-heartblue"></i> - HeartBlue</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-heartbrown"></i> - HeartBrown</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-heartcyan"></i> - HeartCyan</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-hearteyes"></i> - HeartEyes</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-heartgreen"></i> - HeartGreen</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-heartgrey"></i> - HeartGrey</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-heartorange"></i> - HeartOrange</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-heartpink"></i> - HeartPink</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-heartpurple"></i> - HeartPurple</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-heartred"></i> - HeartRed</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-heartsaround"></i> - HeartsAround</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-heartsparkling"></i> - HeartSparkling</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-heartwhite"></i> - HeartWhite</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-heartyellow"></i> - HeartYellow</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-hornsangry"></i> - HornsAngry</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-hornscat"></i> - HornsCat</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-hornsexcited"></i> - HornsExcited</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-hornspensive"></i> - HornsPensive</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-hornssmiling"></i> - HornsSmiling</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-hornssmirk"></i> - HornsSmirk</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-hot"></i> - Hot</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-invader"></i> - Invader</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-joy"></i> - Joy</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-like"></i> - Like</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-mouthless"></i> - Mouthless</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-nerd"></i> - Nerd</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-neutral"></i> - Neutral</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-pensive"></i> - Pensive</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-pleading"></i> - Pleading</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-quepro"></i> - QuePro</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-rage"></i> - Rage</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-ragecensored"></i> - RageCensored</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-raisedeyebrow"></i> - RaisedEyebrow</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-rofl"></i> - Rofl</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-santa"></i> - Santa</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-santapensive"></i> - SantaPensive</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-smile"></i> - Smile</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-smilehappy"></i> - SmileHappy</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-smileupsidedown"></i> - SmileUpsideDown</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-smirk"></i> - Smirk</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-sob"></i> - Sob</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-sobbing"></i> - Sobbing</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-sparkles"></i> - Sparkles</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-star"></i> - Star</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-sunglasses"></i> - Sunglasses</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-surprised"></i> - Surprised</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-unamused"></i> - Unamused</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-wand"></i> - Wand</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-wave"></i> - Wave</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-wink"></i> - Wink</p></div>
+                <div class="md-e-div"><p><i class="md-e md-e-yawn"></i> - Yawn</p></div>
+            </div>
+        </section>
+    </div>
 </body>
-
 </html>
