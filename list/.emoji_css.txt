@@ -250,9 +250,6 @@ i.md-e-smile {
 i.md-e-smilehappy {
     background-image: url('https://macestudios.ru/contestmoji/list/SmileHappy.svg');
 }
-i.md-e-smileupsidedown {
-    background-image: url('https://macestudios.ru/contestmoji/list/SmileUpsideDown.svg');
-}
 i.md-e-smirk {
     background-image: url('https://macestudios.ru/contestmoji/list/Smirk.svg');
 }
@@ -276,6 +273,9 @@ i.md-e-surprised {
 }
 i.md-e-unamused {
     background-image: url('https://macestudios.ru/contestmoji/list/Unamused.svg');
+}
+i.md-e-upsidedown {
+    background-image: url('https://macestudios.ru/contestmoji/list/UpsideDown.svg');
 }
 i.md-e-wand {
     background-image: url('https://macestudios.ru/contestmoji/list/Wand.svg');

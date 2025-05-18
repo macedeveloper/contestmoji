@@ -27,10 +27,7 @@ def generate_files():
     with open(css_path, 'w', encoding='utf-8') as css_file:
         for filename in svg_files:
             name = os.path.splitext(filename)[0]
-            css_rule = f"""i.md-e-{name.lower()} {{
-    background-image: url('https://macestudios.ru/contestmoji/list/{name}.svg');
-}}
-"""
+            css_rule = f"""i.md-e-{name.lower()} {{\n    background-image: url('https://macestudios.ru/contestmoji/list/{name}.svg');\n}}\n"""
             css_file.write(css_rule)
     
     # --- GENERATE HTML FILE ---
@@ -38,7 +35,7 @@ def generate_files():
     with open(html_path, 'w', encoding='utf-8') as html_file:
         for filename in svg_files:
             name = os.path.splitext(filename)[0]
-            html_entry = f'<div class="md-e-div"><p><i class="md-e md-e-{name.lower()}"></i> - {name}</p></div>\n'
+            html_entry = f'<div class="md-e-div"><p><i class="md-e md-e-{name.lower()}"></i> - {name.lower()}</p></div>\n'
             html_file.write(html_entry)
     
     # --- RESULTS ---

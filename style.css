@@ -2,13 +2,13 @@
 :root {
     --bg: #292a2d;
     --darker: #212327;
-    --link: #e685b5;
+    --link: #3abaff;
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     background-color: var(--bg);
     color: #e0e0e0;
@@ -42,13 +42,13 @@ header {
 /* Text styles */
 h1 {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
 
 h2 {
     color: var(--link);
     margin-bottom: 20px;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 code {
