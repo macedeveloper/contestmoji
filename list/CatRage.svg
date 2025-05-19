@@ -6,9 +6,9 @@
 <circle cx="50" cy="50" r="42" fill="#F20D44"/>
 <circle cx="34.7" cy="55.7" r="11.7" fill="white"/>
 <circle cx="11.7" cy="11.7" r="11.7" transform="matrix(-1 0 0 1 75.2002 44)" fill="white"/>
-<circle cx="37.4002" cy="56.6" r="7.2" fill="#38001E"/>
+<circle cx="37.4002" cy="56.5999" r="7.2" fill="#38001E"/>
 <path d="M57 65.6C57 68.0853 53 71 50 71C47 71 43 68.0853 43 65.6C43 63.1147 46.134 62 50 62C53.866 62 57 63.1147 57 65.6Z" fill="#38001E"/>
-<circle cx="7.2" cy="7.2" r="7.2" transform="matrix(-1 0 0 1 68 49.4)" fill="#38001E"/>
+<circle cx="7.2" cy="7.2" r="7.2" transform="matrix(-1 0 0 1 68 49.3999)" fill="#38001E"/>
 <path d="M42.6572 47.8282C37.2849 44.844 34.8584 42.2872 32.8075 36.3809" stroke="#38001E" stroke-width="4" stroke-linecap="round"/>
 <path d="M55.543 47.8282C60.9153 44.844 63.3418 42.2872 65.3927 36.3809" stroke="#38001E" stroke-width="4" stroke-linecap="round"/>
 <path d="M65 78.5C60 70.5 40 70.5 35 78.5" stroke="#38001E" stroke-width="4" stroke-linecap="round"/>

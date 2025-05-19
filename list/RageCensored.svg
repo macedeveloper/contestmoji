@@ -1,16 +1,15 @@
 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="50" cy="50" r="42" fill="#F20D44"/>
-<circle cx="34.7" cy="43.7" r="11.7" fill="white"/>
-<circle cx="11.7" cy="11.7" r="11.7" transform="matrix(-1 0 0 1 75.2002 32)" fill="white"/>
-<circle cx="37.4002" cy="44.6" r="7.2" fill="#38001E"/>
-<circle cx="7.2" cy="7.2" r="7.2" transform="matrix(-1 0 0 1 68 37.4)" fill="#38001E"/>
-<path d="M42.6572 35.8282C37.2849 32.844 34.8584 30.2872 32.8075 24.3809" stroke="#38001E" stroke-width="4" stroke-linecap="round"/>
-<path d="M55.543 35.8282C60.9153 32.844 63.3418 30.2872 65.3927 24.3809" stroke="#38001E" stroke-width="4" stroke-linecap="round"/>
+<circle cx="34.7" cy="42.7" r="11.7" fill="white"/>
+<circle cx="11.7" cy="11.7" r="11.7" transform="matrix(-1 0 0 1 75.2002 31)" fill="white"/>
+<circle cx="37.4002" cy="43.6" r="7.2" fill="#38001E"/>
+<circle cx="7.2" cy="7.2" r="7.2" transform="matrix(-1 0 0 1 68 36.4)" fill="#38001E"/>
+<path d="M42.6572 34.8282C37.2849 31.844 34.8584 29.2872 32.8075 23.3809" stroke="#38001E" stroke-width="4" stroke-linecap="round"/>
+<path d="M55.543 34.8282C60.9153 31.844 63.3418 29.2872 65.3927 23.3809" stroke="#38001E" stroke-width="4" stroke-linecap="round"/>
 <path d="M65 10.25L74.5495 11.7192L76.25 3.5M84.5 3.5L82.4774 12.9388L91.25 14.2885M80 24.5L81 19.8333L89.75 20.875M71.75 25.25L73.0661 18.8888L63.5 17.75" stroke="#38001E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="5" y="58" width="90" height="29" rx="6" fill="#121124"/>
-<path d="M24 82C22.5 77.1282 11 74.5299 11 68.359C11 64.3455 14 63 17.5 63C21 63 23 65.4276 23 68.359C23 73.7179 10 71.7692 10 77.9866C10 80.0513 12.4999 81.5128 16.9999 81.5128C22 81.5128 24 74.9011 24 74.9011" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M34 63L31.1818 76.9024M30 82V81.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M41.4999 83C48.4923 73.9895 51.7289 69.3517 55.9999 62M47.137 66.0918C47.3988 68.5 46.4999 69.8732 44.4403 70.0972C42.7306 70.2831 41.1661 68.7912 40.9458 66.765C40.7255 64.7388 41.5 62.9927 43.6425 62.7597C45.3521 62.5738 46.9167 64.0657 47.137 66.0918ZM57.8517 80.4024C57.0135 82.6091 55.3533 83.1974 53.8044 82.6091C51.9999 81.9237 51.5563 80.079 52.2427 78.2719C52.929 76.4649 54.741 75.4769 56.2899 76.0652C58.2494 76.8095 58.538 78.5953 57.8517 80.4024Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M65.9814 62.3853L66.2961 65.6368M66.2961 65.6368L62.3147 66.0222M66.2961 65.6368L70.2775 65.2515M66.2961 65.6368L64.665 69.5455M66.2961 65.6368L69.1441 69.112" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M75 72.2857L90 72.7143M82.7419 65L82.2581 80" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="5" y="56" width="90" height="29" rx="6" fill="#121124"/>
+<path d="M24.9999 80C20.9999 76.8334 13.0999 68.5 13.4999 64.5C13.9999 59.5 22.4999 59 21.4999 64.5C20.4999 70 12.4999 70 11.9999 75.5C11.4999 81 22.4999 82 24.4999 72.5M31 80V79.5M31.5 75L32.5 61" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M38.5902 80.609C46 73.1091 50 67.7062 53.3803 60.3688M44.2273 64.0918C44.4892 66.4999 43.5902 67.8731 41.5306 68.0971C39.821 68.283 38.2564 66.7911 38.0361 64.765C37.8158 62.7388 38.5903 60.9926 40.7328 60.7596C42.4425 60.5737 44.007 62.0656 44.2273 64.0918ZM54.942 78.4023C54.1039 80.609 52.4436 81.1973 50.8947 80.609C49.0902 79.9236 48.6466 78.0789 49.333 76.2719C50.0193 74.4648 51.8314 73.4768 53.3803 74.0651C55.3397 74.8094 55.6284 76.5953 54.942 78.4023Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M63.5 65.8462V61M63.5 65.8462L59 64.4615M63.5 65.8462L68 64.4615M63.5 65.8462L66.2692 70M63.5 65.8462L60.7308 70" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M78.5 61L75.5 81M86 61L83.5 81M74 67H89M72.5 75H87.5" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

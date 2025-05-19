@@ -1,0 +1,33 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="8" y="8" width="84" height="84" rx="20" fill="#6C7991" stroke="#121124" stroke-width="4"/>
+<mask id="mask0_185_1394" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="10" y="10" width="80" height="80">
+<rect x="10" y="10" width="80" height="80" rx="18" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_185_1394)">
+<g style="mix-blend-mode:multiply" opacity="0.5">
+<path d="M92.0884 15.6846L69.2155 51.6297L81.7118 59.0833L56.7066 96.5434" stroke="#5B5C69" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g style="mix-blend-mode:multiply" opacity="0.5">
+<ellipse cx="79.619" cy="51.4048" rx="2.08065" ry="2.06705" transform="rotate(-8.80076 79.619 51.4048)" fill="#5B5C69"/>
+</g>
+<g style="mix-blend-mode:multiply" opacity="0.5">
+<ellipse cx="71.2098" cy="65.5012" rx="2.08065" ry="2.06705" transform="rotate(-8.80076 71.2098 65.5012)" fill="#5B5C69"/>
+</g>
+<g style="mix-blend-mode:multiply" opacity="0.5">
+<ellipse cx="77.3778" cy="78.1421" rx="2.08065" ry="2.06705" transform="rotate(-8.80076 77.3778 78.1421)" fill="#5B5C69"/>
+</g>
+<g style="mix-blend-mode:multiply" opacity="0.5">
+<ellipse cx="78.8822" cy="26.6631" rx="2.08065" ry="2.06705" transform="rotate(-8.80076 78.8822 26.6631)" fill="#5B5C69"/>
+</g>
+<g style="mix-blend-mode:multiply" opacity="0.5">
+<ellipse cx="58.3187" cy="84.2304" rx="2.08065" ry="2.06705" transform="rotate(-8.80076 58.3187 84.2304)" fill="#5B5C69"/>
+</g>
+<rect opacity="0.3" x="55.1978" y="-9" width="20.6101" height="116.028" transform="rotate(26.2387 55.1978 -9)" fill="#D3E7FF"/>
+<rect opacity="0.3" x="35.1125" y="-5.37384" width="8.83082" height="97.515" transform="rotate(26.2387 35.1125 -5.37384)" fill="#D3E7FF"/>
+</g>
+<circle cx="35" cy="43" r="13" fill="white"/>
+<circle cx="13" cy="13" r="13" transform="matrix(-1 0 0 1 78 30)" fill="white"/>
+<circle cx="37" cy="43" r="8" fill="#121124"/>
+<circle cx="8" cy="8" r="8" transform="matrix(-1 0 0 1 71 35)" fill="#121124"/>
+<path d="M65 64C60 74.6667 40 74.6667 35 64" stroke="#121124" stroke-width="4" stroke-linecap="round"/>
+</svg>
