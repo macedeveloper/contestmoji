@@ -8,7 +8,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://macestudios.ru/contestmoji/emojis.css">
+    <link rel="stylesheet" href="emojis.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,33 +22,53 @@
             <h1>Contestmoji</h1>
             <div class="author">
                 <a href="https://github.com/macedeveloper/contestmoji" target="_blank">GitHub repository</a>
-                &nbsp; &nbsp; &nbsp;
                 <a href="https://macestudios.ru/" target="_blank">Mace Dev</a>
             </div>
         </div>
     </header>
 
     <div class="main-container">
+
+
         <section class="example-section">
             <h2>Example:</h2>
-            <p>I feel rage <i class="md-e md-e-rage"></i></p>
-            <p>This is amazing <i class="md-e md-e-heartsaround"></i></p>
-            <p>I'm so happy <i class="md-e md-e-smile"></i></p>
+
+            <div class="example-chat">
+                <div class="example-chat-pfp">
+                    <img src="https://macestudios.ru/assets/logos/macedev.svg" alt="" height="48px">
+                </div>
+                <div class="example-chat-messages">
+                    <p>
+                        <span style="font-weight: 600; color: #3abaff;">Mace Dev</span><br>
+                        Hey, ended up staying late at the studio again
+                    </p>
+                    <p>Not super productive <i class="md-e md-e-yawn"></i>, but at least I got the layout done <i class="md-e md-e-smile"></i></p>
+                    <p>I’m kind of in that weird headspace — not upset, just... drained <i class="md-e md-e-hornspensive"></i></p>
+                    <p>Might take a break tomorrow and just walk around the city or something.</p>
+                    <p><i class="md-e md-e-checkmark"></i><i class="md-e md-e-cross"></i> Still debating if I want to bring the camera with me.</p>
+                    <p>Anyway, hope your day went better than mine <i class="md-e md-e-angeldreamy"></i><i class="md-e md-e-sparkles"></i></p>
+                </div>
+            </div>
+
         </section>
+
 
         <section class="usage-section">
             <h2>Usage:</h2>
+
             <ol>
                 <li>Insert into the <code>&lt;head&gt;</code> of your website: <code>&lt;link rel="stylesheet" href="https://macestudios.ru/contestmoji/emojis.css"&gt;</code></li>
-                <li>Anywhere on your website write: <code>&lt;i class="md-e md-e-smile"&gt;&lt;/i&gt;</code></li>
+                <li>Anywhere on your website write: <code>&lt;i class="md-e md-e-smile"&gt;&lt;/i&gt;</code> <i class="md-e md-e-smile"></i></li> 
                 <li>Replace <code>smile</code> with your desired emoji name</li>
             </ol>
+
         </section>
+
 
         <section class="emoji-list-section">
             <h2>Emoji List:</h2>
+
             <div class="emoji-grid">
-                <!-- Emoji Preview HTML -->
                 <div class="md-e-div"><p><i class="md-e md-e-angel"></i> - angel</p></div>
                 <div class="md-e-div"><p><i class="md-e md-e-angeldreamy"></i> - angeldreamy</p></div>
                 <div class="md-e-div"><p><i class="md-e md-e-annoyed"></i> - annoyed</p></div>
@@ -146,7 +166,10 @@
                 <div class="md-e-div"><p><i class="md-e md-e-wink"></i> - wink</p></div>
                 <div class="md-e-div"><p><i class="md-e md-e-yawn"></i> - yawn</p></div>
             </div>
+
         </section>
+
+
     </div>
 </body>
 </html>

@@ -1,8 +1,9 @@
 /* Base styles */
 :root {
     --bg: #292a2d;
-    --darker: #212327;
+    --darker: #202124;
     --link: #3abaff;
+    --pink: #e76bd7;
 }
 
 body {
@@ -13,6 +14,11 @@ body {
     background-color: var(--bg);
     color: #e0e0e0;
     padding-top: 70px;
+
+    width: 100vw;               /* Full viewport width */
+    max-width: 100%;            /* Never exceed viewport */
+    overflow-x: hidden;         /* Clip anything that exceeds horizontally */
+    box-sizing: border-box;     /* Include padding in width calculation */
 }
 
 
@@ -37,6 +43,20 @@ header {
     margin: 0 auto;
 }
 
+.author {
+    display: inline-flex;
+    gap: 2rem;
+}
+
+.author a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+.author a:hover {
+    text-decoration: underline;
+}
+
 
 
 /* Text styles */
@@ -46,7 +66,7 @@ h1 {
 }
 
 h2 {
-    color: var(--link);
+    color: var(--pink);
     margin-bottom: 20px;
     font-size: 1.5em;
 }
@@ -58,15 +78,10 @@ code {
     border-radius: 4px;
     font-family: monospace;
     font-size: 0.9em;
-}
 
-.author a {
-    color: var(--link);
-    text-decoration: none;
-}
-
-.author a:hover {
-    text-decoration: underline;
+    white-space: pre-wrap;       /* Allow wrapping */
+    word-wrap: break-word;       /* Break long words if needed */
+    overflow-wrap: break-word;   /* Modern version of word-wrap */
 }
 
 
@@ -111,6 +126,37 @@ section {
 /* Example section */
 .example-section p {
     margin: 15px 0;
+}
+
+.example-chat {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0.5em;
+}
+
+.example-chat-messages {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+    list-style: none;
+    align-items: flex-start;
+}
+
+.example-chat-messages p {
+    padding: 0.5em 0.75em;
+    background-color: var(--darker);
+    border-radius: 0.6em;
+    border-bottom-left-radius: 0;
+    margin: 0;
+    width: fit-content;
+}
+
+.example-chat-pfp {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    user-select: none;
 }
 
 /* Usage section */
