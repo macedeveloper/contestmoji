@@ -105,13 +105,15 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    justify-content: space-evenly;
 }
-
 .md-e-div {
-    width: 200px;
+    /* min-width: 180px; */
     background-color: var(--darker);
     border-radius: 8px;
     padding: 12px;
+    flex-grow: 1;
+    flex: 200px;
 }
 
 .md-e-div p {

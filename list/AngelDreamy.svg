@@ -14,7 +14,7 @@
 <circle cx="65" cy="40" r="9" fill="#572217"/>
 <circle cx="61" cy="36" r="4" fill="white"/>
 <circle cx="70" cy="45" r="3" fill="white"/>
-<path d="M39.2805 68.6491C39.2805 68.6491 44.3035 76 58.5 73.5C72.6965 71 72.6965 62.0315 72.6965 62.0315" stroke="#572217" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M39.2805 68.6492C39.2805 68.6492 44.3035 76.0001 58.5 73.5001C72.6965 71.0001 72.6965 62.0315 72.6965 62.0315" stroke="#572217" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 <mask id="mask0_34_460" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="8" y="4" width="84" height="24">
 <path d="M50 28C73.196 28 92 22.6274 92 16C92 9.37258 73.196 4 50 4C26.804 4 8 9.37258 8 16C8 22.6274 26.804 28 50 28ZM50 20C32.3269 20 18 16.866 18 13C18 9.13401 32.3269 6 50 6C67.6731 6 82 9.13401 82 13C82 16.866 67.6731 20 50 20Z" fill="#00A3FF"/>
 </mask>
