@@ -16,6 +16,18 @@ i.md-e-angeldreamy {
 i.md-e-annoyed {
     background-image: url('https://macestudios.ru/contestmoji/list/Annoyed.svg');
 }
+i.md-e-bloodtypea {
+    background-image: url('https://macestudios.ru/contestmoji/list/BloodTypeA.svg');
+}
+i.md-e-bloodtypeab {
+    background-image: url('https://macestudios.ru/contestmoji/list/BloodTypeAB.svg');
+}
+i.md-e-bloodtypeb {
+    background-image: url('https://macestudios.ru/contestmoji/list/BloodTypeB.svg');
+}
+i.md-e-bloodtypeo {
+    background-image: url('https://macestudios.ru/contestmoji/list/BloodTypeO.svg');
+}
 i.md-e-boom {
     background-image: url('https://macestudios.ru/contestmoji/list/Boom.svg');
 }
@@ -40,6 +52,9 @@ i.md-e-buttonburger {
 i.md-e-buttoncircle {
     background-image: url('https://macestudios.ru/contestmoji/list/ButtonCircle.svg');
 }
+i.md-e-buttondiamond {
+    background-image: url('https://macestudios.ru/contestmoji/list/ButtonDiamond.svg');
+}
 i.md-e-buttonempty {
     background-image: url('https://macestudios.ru/contestmoji/list/ButtonEmpty.svg');
 }
@@ -49,11 +64,17 @@ i.md-e-buttongray {
 i.md-e-buttonheart {
     background-image: url('https://macestudios.ru/contestmoji/list/ButtonHeart.svg');
 }
+i.md-e-buttonpink {
+    background-image: url('https://macestudios.ru/contestmoji/list/ButtonPink.svg');
+}
 i.md-e-buttonsparkle {
     background-image: url('https://macestudios.ru/contestmoji/list/ButtonSparkle.svg');
 }
 i.md-e-buttonsquare {
     background-image: url('https://macestudios.ru/contestmoji/list/ButtonSquare.svg');
+}
+i.md-e-buttonstar {
+    background-image: url('https://macestudios.ru/contestmoji/list/ButtonStar.svg');
 }
 i.md-e-buttontriangle {
     background-image: url('https://macestudios.ru/contestmoji/list/ButtonTriangle.svg');
@@ -63,6 +84,12 @@ i.md-e-buttonwhite {
 }
 i.md-e-catgrin {
     background-image: url('https://macestudios.ru/contestmoji/list/CatGrin.svg');
+}
+i.md-e-cathehe {
+    background-image: url('https://macestudios.ru/contestmoji/list/CatHehe.svg');
+}
+i.md-e-cathorns {
+    background-image: url('https://macestudios.ru/contestmoji/list/CatHorns.svg');
 }
 i.md-e-catjoy {
     background-image: url('https://macestudios.ru/contestmoji/list/CatJoy.svg');
@@ -78,6 +105,9 @@ i.md-e-catsmile {
 }
 i.md-e-catsmirk {
     background-image: url('https://macestudios.ru/contestmoji/list/CatSmirk.svg');
+}
+i.md-e-catyawn {
+    background-image: url('https://macestudios.ru/contestmoji/list/CatYawn.svg');
 }
 i.md-e-chair {
     background-image: url('https://macestudios.ru/contestmoji/list/Chair.svg');
@@ -315,6 +345,9 @@ i.md-e-unamused {
 }
 i.md-e-upsidedown {
     background-image: url('https://macestudios.ru/contestmoji/list/UpsideDown.svg');
+}
+i.md-e-user {
+    background-image: url('https://macestudios.ru/contestmoji/list/User.svg');
 }
 i.md-e-wand {
     background-image: url('https://macestudios.ru/contestmoji/list/Wand.svg');

@@ -1,33 +1,31 @@
 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="8" y="8" width="84" height="84" rx="20" fill="#6C7991" stroke="#121124" stroke-width="4"/>
+<rect x="10" y="10" width="80" height="80" rx="18" fill="#6C7991"/>
 <mask id="mask0_185_1394" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="10" y="10" width="80" height="80">
 <rect x="10" y="10" width="80" height="80" rx="18" fill="#D9D9D9"/>
 </mask>
 <g mask="url(#mask0_185_1394)">
+<rect opacity="0.3" x="58.875" y="-7.802" width="20.6101" height="116.028" transform="rotate(30 58.875 -7.802)" fill="#D3E7FF"/>
+<rect opacity="0.3" x="38.7576" y="-9" width="8.83082" height="97.515" transform="rotate(30 38.7576 -9)" fill="#D3E7FF"/>
 <g style="mix-blend-mode:multiply" opacity="0.5">
-<path d="M92.0884 15.6845L69.2155 51.6297L81.7118 59.0832L56.7066 96.5433" stroke="#5B5C69" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g style="mix-blend-mode:multiply" opacity="0.5">
-<ellipse cx="79.619" cy="51.4048" rx="2.08065" ry="2.06705" transform="rotate(-8.80076 79.619 51.4048)" fill="#5B5C69"/>
-</g>
-<g style="mix-blend-mode:multiply" opacity="0.5">
-<ellipse cx="71.2098" cy="65.501" rx="2.08065" ry="2.06705" transform="rotate(-8.80076 71.2098 65.501)" fill="#5B5C69"/>
+<path d="M98.75 7L70.75 55.4974L82.8744 62.4974L58.1244 105.366" stroke="#5B5C69" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g style="mix-blend-mode:multiply" opacity="0.5">
-<ellipse cx="77.3778" cy="78.1421" rx="2.08065" ry="2.06705" transform="rotate(-8.80076 77.3778 78.1421)" fill="#5B5C69"/>
+<circle cx="80.3121" cy="52.9352" r="2" transform="rotate(30 80.3121 52.9352)" fill="#5B5C69"/>
 </g>
 <g style="mix-blend-mode:multiply" opacity="0.5">
-<ellipse cx="78.8822" cy="26.6631" rx="2.08065" ry="2.06705" transform="rotate(-8.80076 78.8822 26.6631)" fill="#5B5C69"/>
+<circle cx="87.3121" cy="40.8109" r="2" transform="rotate(30 87.3121 40.8109)" fill="#5B5C69"/>
 </g>
 <g style="mix-blend-mode:multiply" opacity="0.5">
-<ellipse cx="58.3187" cy="84.2302" rx="2.08065" ry="2.06705" transform="rotate(-8.80076 58.3187 84.2302)" fill="#5B5C69"/>
+<circle cx="73.3121" cy="65.0597" r="2" transform="rotate(30 73.3121 65.0597)" fill="#5B5C69"/>
 </g>
-<rect opacity="0.3" x="55.1978" y="-9" width="20.6101" height="116.028" transform="rotate(26.2387 55.1978 -9)" fill="#D3E7FF"/>
-<rect opacity="0.3" x="35.1125" y="-5.37378" width="8.83082" height="97.515" transform="rotate(26.2387 35.1125 -5.37378)" fill="#D3E7FF"/>
+<g style="mix-blend-mode:multiply" opacity="0.5">
+<circle cx="66.3121" cy="77.184" r="2" transform="rotate(30 66.3121 77.184)" fill="#5B5C69"/>
 </g>
-<circle cx="35" cy="43" r="13" fill="white"/>
-<circle cx="13" cy="13" r="13" transform="matrix(-1 0 0 1 78 30)" fill="white"/>
-<circle cx="37" cy="43" r="8" fill="#121124"/>
-<circle cx="8" cy="8" r="8" transform="matrix(-1 0 0 1 71 35)" fill="#121124"/>
-<path d="M65 64C60 74.6667 40 74.6667 35 64" stroke="#121124" stroke-width="4" stroke-linecap="round"/>
+<g style="mix-blend-mode:multiply" opacity="0.5">
+<circle cx="59.3121" cy="89.3082" r="2" transform="rotate(30 59.3121 89.3082)" fill="#5B5C69"/>
+</g>
+</g>
+<path d="M65 65C60 75.6667 40 75.6667 35 65" stroke="#190E30" stroke-width="4" stroke-linecap="round"/>
+<path d="M38 30V50" stroke="#190E30" stroke-width="4" stroke-linecap="round"/>
+<path d="M62 30V50" stroke="#190E30" stroke-width="4" stroke-linecap="round"/>
 </svg>
