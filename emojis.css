@@ -205,11 +205,11 @@ i.md-e-heartcyan {
 i.md-e-hearteyes {
     background-image: url('https://macestudios.ru/contestmoji/list/HeartEyes.svg');
 }
-i.md-e-heartgreen {
-    background-image: url('https://macestudios.ru/contestmoji/list/HeartGreen.svg');
-}
 i.md-e-heartgray {
     background-image: url('https://macestudios.ru/contestmoji/list/HeartGray.svg');
+}
+i.md-e-heartgreen {
+    background-image: url('https://macestudios.ru/contestmoji/list/HeartGreen.svg');
 }
 i.md-e-heartorange {
     background-image: url('https://macestudios.ru/contestmoji/list/HeartOrange.svg');
@@ -273,6 +273,12 @@ i.md-e-.macedev {
 }
 i.md-e-mouthless {
     background-image: url('https://macestudios.ru/contestmoji/list/Mouthless.svg');
+}
+i.md-e-musiccumbal {
+    background-image: url('https://macestudios.ru/contestmoji/list/MusicCumbal.svg');
+}
+i.md-e-musicpiano {
+    background-image: url('https://macestudios.ru/contestmoji/list/MusicPiano.svg');
 }
 i.md-e-nerd {
     background-image: url('https://macestudios.ru/contestmoji/list/Nerd.svg');
@@ -357,6 +363,21 @@ i.md-e-warning {
 }
 i.md-e-wave {
     background-image: url('https://macestudios.ru/contestmoji/list/Wave.svg');
+}
+i.md-e-waveformnoise {
+    background-image: url('https://macestudios.ru/contestmoji/list/WaveformNoise.svg');
+}
+i.md-e-waveformsaw {
+    background-image: url('https://macestudios.ru/contestmoji/list/WaveformSaw.svg');
+}
+i.md-e-waveformsine {
+    background-image: url('https://macestudios.ru/contestmoji/list/WaveformSine.svg');
+}
+i.md-e-waveformsquare {
+    background-image: url('https://macestudios.ru/contestmoji/list/WaveformSquare.svg');
+}
+i.md-e-waveformtriangle {
+    background-image: url('https://macestudios.ru/contestmoji/list/WaveformTriangle.svg');
 }
 i.md-e-wink {
     background-image: url('https://macestudios.ru/contestmoji/list/Wink.svg');
